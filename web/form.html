@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ServletPracticeProjectForm</title>
+</head>
+<body>
+
+<form action="/AnnotationServletPath" method="post">
+    UserName: <input name="userName"/><br/>
+    Full Name: <input name="fullName"/><br/>
+    Profession:
+    <input type="radio" name="prof" value="Developer">Developer</input>
+    <input type="radio" name="prof" value="Architect">Architect</input>
+    <br/>
+    Favorite foods:
+    <select name="food" multiple size="3">
+        <option value="pizza">Pizza</option>
+        <option value="tofu">Tofu</option>
+        <option value="kebab">Kebab</option>
+        <option value="salat">Salat</option>
+    </select>
+    <input type="submit"/>
+</form>
+
+</body>
+</html>
